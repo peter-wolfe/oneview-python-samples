@@ -1,5 +1,5 @@
 # CRL HELPER script 
-This document provides installation and usage of crl_helper package. This package automatically downloads and uploads CRL’s to OneView.
+This document provides installation and usage of crl_helper package. This package automates certificate revocation list (CRL) uploading to a OneView V4.0 and later appliance. 
 
 ## Inroduction
 “crl_helper.py” is a python script that allows OneView Infrastructure administrators users to automatically download the CRL files of the CA certificates and upload them to the appliance for those CAs that are trusted in appliance. This ensures that the CRL files on the appliance are updated to the latest.
